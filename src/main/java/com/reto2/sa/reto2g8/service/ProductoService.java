@@ -21,7 +21,7 @@ public class ProductoService {
     private ProductoRepository repository;
     
     public Producto saveProduct(Producto product){
-        return repository.save(product);
+       return repository.save(product);
     }
     
     public List<Producto> getProducts(){
